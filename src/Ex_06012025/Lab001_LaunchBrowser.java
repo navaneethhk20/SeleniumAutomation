@@ -10,6 +10,7 @@ public class Lab001_LaunchBrowser {
         System.setProperty("webdriver.chrome.driver" , "C:\\Users\\Navaneeth H K\\Downloads\\chromedriver-win64 (1)\\chromedriver-win64\\chromedriver.exe\\");
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.google.com");
+        driver.getCurrentUrl();
         driver.quit();
     }
 }
